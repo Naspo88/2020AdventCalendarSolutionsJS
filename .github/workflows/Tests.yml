@@ -19,6 +19,6 @@ jobs:
         with:
           token: ${{ secrets.CROSS_REPO_TOKEN }}
       - name: Install packages
-        run: npm install
+        run: yarn install
       - name: Run Tests
-        run: npm test
+        run: yarn test

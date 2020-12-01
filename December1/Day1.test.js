@@ -200,10 +200,12 @@ const realText = `1975
 1088
 1322`;
 
-test('solvePart1 solution is correct', () => {
-    expect(solvePart1(realText)).toBe(633216);
-});
+describe("Day1 tests", () => {
+    test('solvePart1 solution is correct', () => {
+        expect(solvePart1(realText)).toBe(633216);
+    });
 
-test('solvePart2 solution is correct', () => {
-    expect(solvePart2(realText)).toBe(633216);
+    test('solvePart2 solution is correct', () => {
+        expect(solvePart2(realText)).toBe(633216);
+    });
 });

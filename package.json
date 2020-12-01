@@ -8,7 +8,7 @@
     "url": "git+https://github.com/Naspo88/CodeAdvent2020.git"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest --runInBand"
   },
   "author": "Roberto Minghi",
   "license": "ISC",
