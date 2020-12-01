@@ -206,6 +206,6 @@ describe("Day1 tests", () => {
     });
 
     it('solvePart2 solution is correct', () => {
-        expect(solvePart2(realText)).toBe(633216);
+        expect(solvePart2(realText)).toBe(68348924);
     });
 });

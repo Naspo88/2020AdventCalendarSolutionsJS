@@ -31,7 +31,7 @@ export function solvePart2 (text) {
     let resp;
     for (let i = 0; i < array.length; i++) {
         for (let j = i + 1; j < array.length; j++) {
-            for (let k = j + 1; j < array.length; k++) {
+            for (let k = j + 1; k < array.length; k++) {
                 const values = [parseInt(array[i]), parseInt(array[j]), parseInt(array[k])];
                 if (isSumValue(2020, values)) {
                     resp = getSolution(values);
