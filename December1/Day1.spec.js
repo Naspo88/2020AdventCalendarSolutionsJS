@@ -1,4 +1,4 @@
-import { solvePart1, solvePart2 } from './Day1';
+const { solvePart1, solvePart2 } = require('./Day1');
 const realText = `1975
 1600
 113
@@ -201,11 +201,11 @@ const realText = `1975
 1322`;
 
 describe("Day1 tests", () => {
-    test('solvePart1 solution is correct', () => {
+    it('solvePart1 solution is correct', () => {
         expect(solvePart1(realText)).toBe(633216);
     });
 
-    test('solvePart2 solution is correct', () => {
+    it('solvePart2 solution is correct', () => {
         expect(solvePart2(realText)).toBe(633216);
     });
 });
