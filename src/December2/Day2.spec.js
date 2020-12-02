@@ -1,4 +1,4 @@
-import { solvePart1 } from './Day2';
+import { solvePart1, solvePart2 } from './Day2';
 const realText = `5-9 g: ggccggmgn
 11-16 l: llllqllllllllflq
 3-6 q: qvqqqpzqd
@@ -1011,5 +1011,13 @@ describe("Day2 tests", () => {
 
     it('solvePart1 solution with real data is correct', () => {
         expect(solvePart1(realText)).toBe(458);
+    });
+
+    it('solvePart2 solution with test data is correct', () => {
+        expect(solvePart2(part1Text)).toBe(1);
+    });
+
+    it('solvePart2 solution with real data is correct', () => {
+        expect(solvePart2(realText)).toBe(342);
     });
 });
