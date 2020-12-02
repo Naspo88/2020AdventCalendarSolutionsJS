@@ -1,4 +1,4 @@
-import { returnArrayFromText } from './utils/helpers';
+import { returnArrayFromText } from '../utils/helpers';
 
 const reducerSum = (accumulator, currentValue) => accumulator + currentValue;
 const reducerMult = (accumulator, currentValue) => accumulator * currentValue;
