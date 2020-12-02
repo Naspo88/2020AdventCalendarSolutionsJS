@@ -1,3 +1,5 @@
+import { returnArrayFromText } from './utils/helpers';
+
 const reducerSum = (accumulator, currentValue) => accumulator + currentValue;
 const reducerMult = (accumulator, currentValue) => accumulator * currentValue;
 
@@ -11,7 +13,7 @@ function getSolution(arrayToMult) {
 }
 
 export function solvePart1 (text) {
-    const array = text.split('\n');
+    const array = returnArrayFromText(text);
     let resp;
     for (let i = 0; i < array.length; i++) {
         for (let j = i + 1; j < array.length; j++) {
@@ -27,7 +29,7 @@ export function solvePart1 (text) {
 }
 
 export function solvePart2 (text) {
-    const array = text.split('\n');
+    const array = returnArrayFromText(text);
     let resp;
     for (let i = 0; i < array.length; i++) {
         for (let j = i + 1; j < array.length; j++) {

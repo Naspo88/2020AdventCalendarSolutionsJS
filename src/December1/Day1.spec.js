@@ -1,4 +1,4 @@
-const { solvePart1, solvePart2 } = require('./Day1');
+import { solvePart1, solvePart2 } from './Day1';
 const realText = `1975
 1600
 113
