@@ -25,6 +25,5 @@ export function solveDay3 (text, testScenarios = [{r: 3, d: 1}]) {
         scenarioTrees.push(tree);
     });
     
-    console.log('scenTree', scenarioTrees);
     return scenarioTrees.reduce(reducerMult, 1);
 }
