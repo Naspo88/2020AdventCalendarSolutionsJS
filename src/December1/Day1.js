@@ -1,7 +1,4 @@
-import { returnArrayFromText } from '../utils/helpers';
-
-const reducerSum = (accumulator, currentValue) => accumulator + currentValue;
-const reducerMult = (accumulator, currentValue) => accumulator * currentValue;
+import { returnArrayFromText, reducerSum, reducerMult } from '../utils/helpers';
 
 function isSumValue(val, arrayToSum) {
     const sum = arrayToSum.reduce(reducerSum, 0);

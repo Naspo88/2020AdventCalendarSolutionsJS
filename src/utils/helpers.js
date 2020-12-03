@@ -4,3 +4,6 @@ export function returnArrayFromText (simpleText, splitFor = '\n') {
     }
     return simpleText.split(splitFor);
 }
+
+export const reducerSum = (accumulator, currentValue) => accumulator + currentValue;
+export const reducerMult = (accumulator, currentValue) => accumulator * currentValue;
