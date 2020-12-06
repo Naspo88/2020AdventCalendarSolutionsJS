@@ -45,7 +45,7 @@ export function solvePart1 (text) {
     const sorted = allIds.sort((a, b) => a - b);
     for(var i = 0; i < sorted.length - 1; i++) {
         if (sorted[i + 1] - sorted[i] !== 1) {
-            console.log('My seat = ', sorted[i] + 1);
+            // console.log('My seat = ', sorted[i] + 1);
         }
     }
     

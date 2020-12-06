@@ -901,9 +901,9 @@ describe("Day5 tests", () => {
         });
     });
 
-    // it('solvePart1 solution with real data is correct', () => {
-    //     expect(solvePart1(part1Text)).toBe(820);
-    // });
+    it('solvePart1 solution with real data is correct', () => {
+        expect(solvePart1(part1Text)).toBe(820);
+    });
     
     it('solvePart1 solution with real data is correct', () => {
         expect(solvePart1(realText)).toBe(935);
