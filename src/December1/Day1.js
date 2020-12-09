@@ -1,9 +1,4 @@
-import { returnArrayFromText, reducerSum, reducerMult } from '../utils/helpers';
-
-function isSumValue(val, arrayToSum) {
-    const sum = arrayToSum.reduce(reducerSum, 0);
-    return sum === val;
-} 
+import { returnArrayFromText, reducerMult, isSumValue } from '../utils/helpers';
 
 function getSolution(arrayToMult) {
     return arrayToMult.reduce(reducerMult, 1);
