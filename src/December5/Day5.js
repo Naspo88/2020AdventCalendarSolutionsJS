@@ -1,4 +1,4 @@
-import { returnArrayFromText } from '../utils/helpers';
+import { returnArrayFromText, numericalOrderSorting } from '../utils/helpers';
 
 function getFirstHalfOfRange(min, max) {
     return Math.floor((min + max) / 2);
@@ -42,7 +42,7 @@ export function solvePart1 (text) {
         }
     });
 
-    const sorted = allIds.sort((a, b) => a - b);
+    const sorted = allIds.sort(numericalOrderSorting);
     for(var i = 0; i < sorted.length - 1; i++) {
         if (sorted[i + 1] - sorted[i] !== 1) {
             // console.log('My seat = ', sorted[i] + 1);

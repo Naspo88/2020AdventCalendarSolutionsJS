@@ -658,7 +658,7 @@ jmp -4
 acc +6`;
 
 
-describe("Day7 tests", () => {
+describe("Day8 tests", () => {
     it('solvePart1 solution with fake data is correct', () => {
         expect(solvePart1(part1Text)).toBe(5);
     });

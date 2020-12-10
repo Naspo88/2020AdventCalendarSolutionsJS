@@ -14,4 +14,8 @@ export function getSumValue (arrayToSum) {
 
 export function isSumValue(val, arrayToSum) {
     return getSumValue(arrayToSum) === val;
-} 
+}
+
+export function numericalOrderSorting (a, b) {
+    return a - b
+}

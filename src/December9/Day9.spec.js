@@ -1023,7 +1023,7 @@ const part1Text = `35
 576`;
 
 
-describe("Day7 tests", () => {
+describe("Day9 tests", () => {
     it('solvePart1 solution with fake data is correct', () => {
         expect(solvePart1(part1Text, 5)).toBe(127);
     });
