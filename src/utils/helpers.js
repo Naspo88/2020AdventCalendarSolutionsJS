@@ -19,3 +19,8 @@ export function isSumValue(val, arrayToSum) {
 export function numericalOrderSorting (a, b) {
     return a - b
 }
+
+export function setCharAt(str, index, chr) {
+    if(index > str.length-1) return str;
+    return str.substring(0,index) + chr + str.substring(index+1);
+}
