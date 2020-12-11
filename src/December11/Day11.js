@@ -1,6 +1,6 @@
 import { returnArrayFromText, setCharAt } from '../utils/helpers';
 
-const cuntOccupiedPlaces = (input) => {
+const countOccupiedPlaces = (input) => {
     let count = 0;
     input.forEach(row => {
         const inRow = (row.match(/#/g) || []).length;
@@ -187,7 +187,7 @@ export function solvePart1 (text) {
         startArray = endArray;
     }
 
-    return cuntOccupiedPlaces(startArray);
+    return countOccupiedPlaces(startArray);
 }
 
 export function solvePart2 (text) { 
@@ -218,5 +218,5 @@ export function solvePart2 (text) {
         startArray = endArray;
     }
 
-    return cuntOccupiedPlaces(startArray);
+    return countOccupiedPlaces(startArray);
 }
