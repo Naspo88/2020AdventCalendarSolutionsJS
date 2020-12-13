@@ -783,7 +783,7 @@ R90
 F11`;
 
 
-describe("Day11 tests", () => {
+describe("Day12 tests", () => {
     it('solvePart1 solution with the 1st fake data is correct', () => {
         expect(solvePart1(part1Text)).toBe(25);
     });
