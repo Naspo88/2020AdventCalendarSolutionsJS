@@ -599,7 +599,7 @@ mem[42] = 100
 mask = 00000000000000000000000000000000X0XX
 mem[26] = 1`;
 
-describe("Day13 tests", () => {
+describe("Day14 tests", () => {
     it('solvePart1 solution with the 1st fake data is correct', () => {
         expect(solvePart1(part1Text)).toBe(165);
     });
