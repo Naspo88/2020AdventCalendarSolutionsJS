@@ -1,4 +1,4 @@
-import { solvePart1, solvePart2 } from './Day15';
+import { solvePart1 } from './Day15';
 
 const realText = `15,5,1,4,7,0`;
 
@@ -80,4 +80,4 @@ describe("Day15 tests", () => {
     // it('solvePart2 solution with real data is correct', () => {
     //     expect(solvePart1(realText, 30000000)).toBe(689);
     // });
-}); // Test for 30000000 commented out because they took >30s to run
+}); // Test for 30000000 commented out because they took 6s each to run
