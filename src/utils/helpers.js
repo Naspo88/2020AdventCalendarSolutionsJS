@@ -29,3 +29,7 @@ export function cloneObject(object) {
     const newObject = JSON.parse(JSON.stringify(object));
     return newObject;
 }
+
+export function isStringStartAndEnd(str, start, end) {
+    return str.startsWith(start) && str.endsWith(end);
+}
