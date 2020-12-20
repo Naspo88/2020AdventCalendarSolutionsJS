@@ -33,3 +33,15 @@ export function cloneObject(object) {
 export function isStringStartAndEnd(str, start, end) {
     return str.startsWith(start) && str.endsWith(end);
 }
+
+export function getStringBetween(str, start, end) {
+    const afterStart = returnArrayFromText(str, start)[1];
+    return returnArrayFromText(afterStart, end)[0];
+}
+
+export function reverseString(str) {
+    var splitString = str.split('');
+    var reverseArray = splitString.reverse();
+    var joinArray = reverseArray.join("");
+    return joinArray;
+}
