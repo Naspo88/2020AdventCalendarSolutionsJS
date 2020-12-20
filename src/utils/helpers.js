@@ -40,7 +40,7 @@ export function getStringBetween(str, start, end) {
 }
 
 export function reverseString(str) {
-    var splitString = str.split('');
+    var splitString = returnArrayFromText(str, '');
     var reverseArray = splitString.reverse();
     var joinArray = reverseArray.join("");
     return joinArray;

@@ -2,9 +2,9 @@ import { returnArrayFromText } from '../utils/helpers';
 
 const SIZE = 10;
 const MONSTER = [
-  '                  # '.split(''),
-  '#    ##    ##    ###'.split(''),
-  ' #  #  #  #  #  #   '.split(''),
+  returnArrayFromText('                  # ', ''),
+  returnArrayFromText('#    ##    ##    ###', ''),
+  returnArrayFromText(' #  #  #  #  #  #   ', ''),
 ];
 const MONSTER_WIDTH = MONSTER[0].length;
 const MONSTER_HEIGHT = MONSTER.length;
@@ -83,18 +83,12 @@ class BaseMatrix {
     yield true;
     yield false;
   }
-
-  print() {
-    for (const line of this.current) {
-      console.log(line.join(''));
-    }
-  }
 }
 
 class Tile extends BaseMatrix {
   constructor(blob) {
     super();
-    [this.title, this.raw] = blob.split(':\n');
+    [this.title, this.raw] = returnArrayFromText(blob, ':\n');
     this.id = Number(this.title.slice(5, 10));
     this.original = this.extract(this.raw);
     this.width = SIZE;
@@ -109,7 +103,7 @@ class Tile extends BaseMatrix {
   }
 
   extract(blob) {
-    return blob.split('\n').map((line) => line.split(''));
+    return returnArrayFromText(blob, '\n').map((line) => returnArrayFromText(line, ''));
   }
 
   getEdges() {
