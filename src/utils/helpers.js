@@ -56,4 +56,9 @@ export function isExctalySameArray(a, b) {
     }
 
     return true;
-  }
+}
+
+export function insertInArrayValues(arr, ind, val) {
+    arr.splice(ind, 0, ...val);
+    return arr;
+}

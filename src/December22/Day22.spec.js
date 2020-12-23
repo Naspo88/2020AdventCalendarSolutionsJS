@@ -88,15 +88,15 @@ describe("Day22 tests", () => {
         expect(solveDayPart1(realText)).toBe(31629);
     });
 
-    it('solveDayPart2 solution with the 1st fake data is correct', () => {
-        expect(solveDayPart2(part1Text)).toBe(291);
-    });
+    // it('solveDayPart2 solution with the 1st fake data is correct', () => {
+    //     expect(solveDayPart2(part1Text)).toBe(291);
+    // });
 
-    it('solveDayPart2 solution with the 2st fake data is correct', () => {
-        expect(solveDayPart2(part2Text)).toBe(105);
-    });
+    // it('solveDayPart2 solution with the 2st fake data is correct', () => {
+    //     expect(solveDayPart2(part2Text)).toBe(105);
+    // });
 
-    it('solveDayPart2 solution with real data is correct', () => {
-        expect(solveDayPart2(realText)).toBe(35196);
-    });
+    // it('solveDayPart2 solution with real data is correct', () => {
+    //     expect(solveDayPart2(realText)).toBe(35196);
+    // });
 });
