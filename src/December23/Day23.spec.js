@@ -17,11 +17,11 @@ describe("Day23 tests", () => {
         expect(solveDayPart1(realText, 100)).toBe('89573246');
     });
 
-    it('solveDayPart2 solution with the 1st fake data and 10000000 moves is correct', () => {
-        expect(solveDayPart2(part1Text, 10000000)).toBe(149245887792);
-    });
+    // it('solveDayPart2 solution with the 1st fake data and 10000000 moves is correct', () => {
+    //     expect(solveDayPart2(part1Text, 10000000)).toBe(149245887792);
+    // });
 
-    it('solveDayPart2 solution with real data is correct', () => {
-        expect(solveDayPart2(realText, 10000000)).toBe(2029056128);
-    });
+    // it('solveDayPart2 solution with real data is correct', () => {
+    //     expect(solveDayPart2(realText, 10000000)).toBe(2029056128);
+    // });
 });
