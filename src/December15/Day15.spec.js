@@ -49,35 +49,35 @@ describe("Day15 tests", () => {
         expect(solvePart1(realText, 2020)).toBe(1259);
     });
 
-    // it('solvePart2 solution with the 1st fake data is correct', () => {
-    //     expect(solvePart1(part1Text, 30000000)).toBe(175594);
-    // });
+    it('solvePart2 solution with the 1st fake data is correct', () => {
+        expect(solvePart1(part1Text, 30000000)).toBe(175594);
+    });
 
-    // it('solvePart2 solution with the 2nd fake data is correct', () => {
-    //     expect(solvePart1(part1Text2, 30000000)).toBe(2578);
-    // });
+    it('solvePart2 solution with the 2nd fake data is correct', () => {
+        expect(solvePart1(part1Text2, 30000000)).toBe(2578);
+    });
 
-    // it('solvePart2 solution with the 3rd fake data is correct', () => {
-    //     expect(solvePart1(part1Text3, 30000000)).toBe(3544142);
-    // });
+    it('solvePart2 solution with the 3rd fake data is correct', () => {
+        expect(solvePart1(part1Text3, 30000000)).toBe(3544142);
+    });
 
-    // it('solvePart2 solution with the 4th fake data is correct', () => {
-    //     expect(solvePart1(part1Text4, 30000000)).toBe(261214);
-    // });
+    it('solvePart2 solution with the 4th fake data is correct', () => {
+        expect(solvePart1(part1Text4, 30000000)).toBe(261214);
+    });
 
-    // it('solvePart2 solution with the 5th fake data is correct', () => {
-    //     expect(solvePart1(part1Text5, 30000000)).toBe(6895259);
-    // });
+    it('solvePart2 solution with the 5th fake data is correct', () => {
+        expect(solvePart1(part1Text5, 30000000)).toBe(6895259);
+    });
 
-    // it('solvePart2 solution with the 6th fake data is correct', () => {
-    //     expect(solvePart1(part1Text6, 30000000)).toBe(18);
-    // });
+    it('solvePart2 solution with the 6th fake data is correct', () => {
+        expect(solvePart1(part1Text6, 30000000)).toBe(18);
+    });
 
-    // it('solvePart2 solution with the 7th fake data is correct', () => {
-    //     expect(solvePart1(part1Text7, 30000000)).toBe(362);
-    // });
+    it('solvePart2 solution with the 7th fake data is correct', () => {
+        expect(solvePart1(part1Text7, 30000000)).toBe(362);
+    });
 
-    // it('solvePart2 solution with real data is correct', () => {
-    //     expect(solvePart1(realText, 30000000)).toBe(689);
-    // });
-}); // Test for 30000000 commented out because they took 6s each to run
+    it('solvePart2 solution with real data is correct', () => {
+        expect(solvePart1(realText, 30000000)).toBe(689);
+    });
+});
